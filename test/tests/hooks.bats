@@ -6,7 +6,6 @@
 }
 
 @test "Verify hooks installed" {
-  skip
   # look for a hook that should be there
   run docker exec "hooks-test" bash -c "[ -f /opt/nanobox/hooks/configure ]"
 
