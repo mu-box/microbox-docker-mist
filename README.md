@@ -1,4 +1,4 @@
-## nanobox-docker-mist ![Build Status Image](https://travis-ci.org/nanobox-io/nanobox-docker-mist.svg)
+## nanobox-docker-mist [![Build Status Image](https://travis-ci.org/nanobox-io/nanobox-docker-mist.svg)](https://travis-ci.org/nanobox-io/nanobox-docker-mist)
 
 This repo contains the files necessary to create the mist docker image for [Nanobox](http://nanobox.io) consumption.
 
