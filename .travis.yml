@@ -23,6 +23,7 @@ after_success:
   - docker tag ${NAMESPACE}/mist:squashed ${NAMESPACE}/mist:beta;
   - docker push ${REMOTE}${NAMESPACE}/mist:beta;
   - if [ "$BRANCH" == "master" ]; then
+    docker tag ${NAMESPACE}/mist:squashed ${NAMESPACE}/mist;
     docker push ${REMOTE}${NAMESPACE}/mist;
     else
     docker tag ${NAMESPACE}/mist:squashed ${NAMESPACE}/mist:${BRANCH//\//_};
